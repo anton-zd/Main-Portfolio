@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Jorge Antony Zarate Davila</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Hacerca de</a></li>
+          <li><a href="#experience">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><a href="https://www.youtube.com">English</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Hacerca de</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Habilidades</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+          <li><a href="https://www.youtube.com" onclick="toggleMenu()">English</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hola, Mi Nombre es</p>
+        <h1 class="title">Antony</h1>
+        <p class="section__text__p2">Estudiande de Ingenieria en Sistemas</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-3"
+            onclick="window.open('./assets/CV_template.pdf')"
+          >
+            Download CV
+          </button>
+          <button 
+            class="btn btn-color-1" 
+            onclick="location.href='./#contact'">
+            Contacto
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://wa.me/51915929174" target="_blank">
+            <img
+              src="./assets/whatsapp_logo.png"
+              alt="My whatsapp number"
+              class="icon whatsapp-icon"
+            />
+          </a>
+          <a href="https://linkedin.com/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My linkedin profile"
+              class="icon linkedin-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Conoce mas</p>
+      <h1 class="title">Acerca de Mi</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-me">
+          <div class="about-todo-me">
+            <div class="details-todo-me-education">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Estudiante</h3>
+              <p>Sexto Ciclo<br />Universidad Privada del Norte</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Estudiante de ingeniería con habilidades intermedias en Excel (Macros, Tablas Dinámicas, Data Cleaning) y SQL (Join, 
+              Trigger, Alter, Update, Insert), así como un conocimiento básico de Power BI. Con un enfoque en el trabajo en equipo y 
+              colaboración. Actualmente en proceso de aprendizaje de Python, Machine Learning e Inteligencia Artificial. Autodidacta 
+              y dominio en el inglés, con planes de certificar mi nivel en el futuro. Comprometido con el aprendizaje continuo y la 
+              aplicación o ejecución de tecnologías para resolver, optimizar problemas y automatizar procesos. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Conoce mis</p>
+      <h1 class="title">Habilidades</h1>
+      <div class="experience-images">
+        <img src="./assets/excel_img.png" alt="excel" class="experience-image" />
+        <img src="./assets/SQLimg.png" alt="sql" class="experience-image" />
+        <img src="./assets/powerbi_img.png" alt="powerbi" class="experience-image" />
+        <img src="./assets/pythongrescale_img.png" alt="python" class="experience-image" />
+      </div>
+      <div class="experience-details-container-1">
+        <div class="about-containers-1">
+          <div class="details-container-1">
+            <h2 class="experience-sub-title">Herramientas de Análisis</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark_blue.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_blue.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_blue.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark_blue.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basico</p>
+                </div>
+              </article>              
+            </div>
+          </div>          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Mis mas Recientes</p>
+      <h1 class="title">Projectos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto de Excel</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-4"
+                onclick="window.open('https://github.com/', '_blank')";
+              >
+                Excel
+              </button>
+              <button
+                class="btn btn-color-1"
+                onclick="window.open('https://github.com/', '_blank')";
+              >
+                Fuente
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto de SQL</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-5"
+                onclick="window.open('https://github.com/', '_blank')";
+              >
+                SQL
+              </button>
+              <button
+                class="btn btn-color-1"
+                onclick="window.open('https://github.com/', '_blank')";
+              >
+                Fuente
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto de Power BI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-6"
+                onclick="window.open('https://github.com/', '_blank')";
+              >
+                Power BI
+              </button>
+              <button
+                class="btn btn-color-1"
+                onclick="window.open('https://github.com/', '_blank')";
+              >
+                Fuente
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">A Solo un Click</p>
+      <h1 class="title">Contacto</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:antonijorge987@gmail.com">antonijorge987@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/whatsapp_logo.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://wa.me/51915929174" target="_blank">whatsapp</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Hacerca de</a></li>
+            <li><a href="#experience">Habilidades</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Jorge Antony Zarate Davila. Todos los Derechos Reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
