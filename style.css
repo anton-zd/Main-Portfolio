@@ -709,18 +709,3 @@ body {
     width: 100%;
   }
 }
-
-/* IMAGE BUTTOM */
-
-.image-button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-
-.image-button img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
