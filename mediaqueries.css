@@ -101,3 +101,33 @@
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 1439px) {
+  .images {
+    max-width: 896px;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .images {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .images img {
+    margin-right: 0 !important;
+    margin-left: 0 !important; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .buttons button {
+    width: 100%;
+    display: block;
+  }
+
+  .images .img-expand,
+  .images img {
+    width: 100%;
+  }
+}

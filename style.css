@@ -659,7 +659,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2em;
+  gap: 0em;
 }
 
 .images img {
@@ -678,34 +678,4 @@ body {
 .images .img-shrink {
   width: 0em;
   margin: -1em;
-}
-
-@media screen and (max-width: 1439px) {
-  .images {
-    max-width: 896px;
-  }
-}
-
-@media screen and (max-width: 986px) {
-  .images {
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .images img {
-    margin-right: 0 !important;
-    margin-left: 0 !important; /* Corrected */
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .buttons button {
-    width: 100%;
-    display: block;
-  }
-
-  .images .img-expand,
-  .images img {
-    width: 100%;
-  }
 }
