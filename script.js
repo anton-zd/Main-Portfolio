@@ -33,3 +33,6 @@ btns[0].addEventListener('click', (e) => {
     img.classList.add('img-expand');
   });
 });
+
+
+
