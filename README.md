@@ -1,5 +1,6 @@
 # Prytecto de Portafolio Personal
-![Image](https://github.com/user-attachments/assets/fd602577-8eb5-4ddc-823d-ebbf8fb7f53f) <a href="[https://www.linkedin.com/in/antonyzarate](https://miportfoliocv.netlify.app/)" target="_blank"> </a>
+[![Image](https://github.com/user-attachments/assets/fd602577-8eb5-4ddc-823d-ebbf8fb7f53f)](https://miportfoliocv.netlify.app/)
+
 Desarrollé un portafolio web dinámico e innovador, con el objetivo de presentar mi perfil profesional de manera creativa y funcional.
 Desarrolle el proyecto desde la concepción de la arquitectura y UX/UI hasta la implementación front-end completa.
 
