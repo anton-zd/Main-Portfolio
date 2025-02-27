@@ -31,6 +31,7 @@ para el estilo y el diseño responsivo usando media queries.
 Este código crea una barra de navegación de escritorio para mi portafolio. Incluye tu nombre como logotipo y una lista de enlaces a diferentes
 secciones: Acerca de, Habilidades, Proyectos, Contacto y una versión en inglés que aun esta en desarrollo. Los atributos `pid`y `class` permiten
 estilizarla y manipularla con CSS o JavaScript.
+![Image](https://github.com/user-attachments/assets/44f14143-23de-43f9-acb9-28a991400a8a)
 ```html
 <nav id="desktop-nav">
   <div class="logo">Jorge Antony Zarate Davila</div>
