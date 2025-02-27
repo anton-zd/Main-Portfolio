@@ -10,3 +10,36 @@ explorando con IA nuevas formas de mejorar la estructura y la experiencia de nav
 ***
 
 ## Estructura HTML
+### Encabezado del Documento
+```html
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="icon" href="/assets/portfolio.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+```
+
+### Navegación
+```html
+<nav id="desktop-nav">
+  <div class="logo">Jorge Antony Zarate Davila</div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">Hacerca de</a></li>
+      <li><a href="#experience">Habilidades</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+      <li><a href="">Ingles</a></li>
+    </ul>
+  </div>
+</nav>
+```
+
+## Diseño CSS 
+
+
+
