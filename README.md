@@ -106,7 +106,7 @@ a:hover {
 }
 ```
 
-## Java Script Estructura
+## JavaScript 
 Este código JavaScript añade interactividad a una página web con botones e imágenes. Selecciona todos los botones e imágenes utilizando sus respectivos selectores de clase CSS.
 Cuando se pulsa un botón, filtra las imágenes basándose en sus atributos de datos. La función `setActiveBtn` resalta el botón pulsado, mientras que la función `filterImg` expande o
 encoge las imágenes basándose en su tipo comparado con el tipo de botón. El primer botón probablemente sirve como botón «mostrar todo», expandiendo todas las imágenes.
