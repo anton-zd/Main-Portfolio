@@ -1,4 +1,4 @@
-# Prytecto de Portafolio Personal
+# Proyecto de Portafolio Personal
 [![Image](https://github.com/user-attachments/assets/fd602577-8eb5-4ddc-823d-ebbf8fb7f53f)](https://miportfoliocv.netlify.app/)
 
 Desarrollé un portafolio web dinámico e innovador, con el objetivo de presentar mi perfil profesional de manera creativa y funcional.
