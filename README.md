@@ -1,4 +1,4 @@
-# Prytecto de Portafolio Personal
+# Proyecto de Portafolio Personal
 [![Image](https://github.com/user-attachments/assets/fd602577-8eb5-4ddc-823d-ebbf8fb7f53f)](https://miportfoliocv.netlify.app/)
 
 Desarrollé un portafolio web dinámico e innovador, con el objetivo de presentar mi perfil profesional de manera creativa y funcional.
@@ -12,6 +12,9 @@ explorando con IA nuevas formas de mejorar la estructura y la experiencia de nav
 
 ## Estructura HTML
 ### Encabezado del Documento
+El `<head>` de este documento HTML establece la información clave. Define la codificación de caracteres en UTF-8, garantizando la compatibilidad con distintos navegadores (especialmente IE) y
+establece la ventana gráfica para la capacidad de respuesta en distintos dispositivos. El título es 'Portfolio', y enlaza los archivos CSS (`style.css` y `mediaqueries.css`)
+para el estilo y el diseño responsivo usando media queries.
 ```html
 <head>
   <meta charset="UTF-8" />
@@ -25,6 +28,10 @@ explorando con IA nuevas formas de mejorar la estructura y la experiencia de nav
 ```
 
 ### Navegación
+Este código crea una barra de navegación de escritorio para mi portafolio. Incluye tu nombre como logotipo y una lista de enlaces a diferentes
+secciones: Acerca de, Habilidades, Proyectos, Contacto y una versión en inglés que aun esta en desarrollo. Los atributos `pid`y `class` permiten
+estilizarla y manipularla con CSS o JavaScript.
+![Image](https://github.com/user-attachments/assets/44f14143-23de-43f9-acb9-28a991400a8a)
 ```html
 <nav id="desktop-nav">
   <div class="logo">Jorge Antony Zarate Davila</div>
@@ -42,6 +49,8 @@ explorando con IA nuevas formas de mejorar la estructura y la experiencia de nav
 
 ## Diseño CSS 
 ###  Diseños Generales
+En esta sección establecí en cero el margen y el relleno por defecto para todos los elementos, utiliza la fuente «Poppins» para el texto del cuerpo, activa el
+desplazamiento suave para todo el documento HTML, añade un margen inferior de 10 píxeles a todos los párrafos y establece el color del texto de los párrafos en gris oscuro.
 ```css
 * {
   margin: 0;
@@ -60,6 +69,9 @@ p {
 ```
 
 ### Navegación
+Este código estiliza los elementos de navegación y los enlaces. Dispone la navegación y los enlaces horizontalmente con `display: flex`, distribuye el espacio alrededor
+de los elementos y los centra verticalmente. Los enlaces se estilizan con un espacio, un tamaño de fuente mayor y sin subrayado por defecto. Al pasar el ratón por encima
+de los enlaces, el color cambia a gris y se añade un subrayado. El tamaño de la fuente del logotipo aumenta y, al pasar el ratón sobre él.
 ```css
 nav,
 .nav-links {
@@ -94,7 +106,10 @@ a:hover {
 }
 ```
 
-## Java Script Estructura
+## JavaScript 
+Este código JavaScript añade interactividad a una página web con botones e imágenes. Selecciona todos los botones e imágenes utilizando sus respectivos selectores de clase CSS.
+Cuando se pulsa un botón, filtra las imágenes basándose en sus atributos de datos. La función `setActiveBtn` resalta el botón pulsado, mientras que la función `filterImg` expande o
+encoge las imágenes basándose en su tipo comparado con el tipo de botón. El primer botón probablemente sirve como botón «mostrar todo», expandiendo todas las imágenes.
 ```js
 const btns = document.querySelectorAll('.buttons button');
 const imgs = document.querySelectorAll('.images img');
