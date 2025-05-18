@@ -221,13 +221,167 @@ section {
   height: 2.5rem;
 }
 
-.whatsapp-icon:hover {
-  content: url('./assets/whatsapp_logo_green.png'); /* Imagen al pasar el mouse */
+/* From Uiverse.io by Gaurang7717 */ 
+.Btn-W {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
-.linkedin-icon:hover {
-  content: url('./assets/linkedin_blue.png'); /* Imagen al pasar el mouse */
+.svgContainer-W {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
 }
+
+.BG-W {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #00d757;
+  background: #00d757;
+  background: #00d757;
+  background: #00d757;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  z-index: -1;
+  border-radius: 9px;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.Btn-W:hover .BG-W {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn-W:hover .svgContainer-W {
+  background-color: rgba(156, 156, 156, 0.466);
+}
+
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn-L {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.svgContainer-L {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.BG-L {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #0077b5;
+  z-index: -1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.Btn-L:hover .BG-L {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn-L:hover .svgContainer-L {
+  border: 1px solid rgba(216, 216, 216, 0.466);
+  background-color: rgba(190, 190, 190, 0.466);
+  backdrop-filter: blur(4px);
+}
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn-G {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.svgContainer-G {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all .3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.BG-G {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #181818;
+  z-index: -1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all .3s;
+}
+
+.Btn-G:hover .BG-G {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn-G:hover .svgContainer-G {
+  background-color: rgba(156, 156, 156, 0.466);
+  backdrop-filter: blur(4px);
+}
+
 
 /* BUTTONS */
 
@@ -533,8 +687,10 @@ article .icon {
 .experience-images {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   gap: 1rem; /* Espacio entre las imágenes */
   margin-top: 1rem; /* Espacio superior */
+  margin-bottom: 1rem; /* Espacio inferior */
 }
 
 .experience-image {

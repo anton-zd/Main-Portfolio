@@ -10,6 +10,15 @@
   #projects {
     height: fit-content;
   }
+  .experience-images {
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .experience-image {
+    width: 90px;
+    transition: all 0.3s ease;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,6 +53,14 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .experience-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .experience-image {
+    width: 80px;
+    margin: 0.5rem;
   }
 }
 
@@ -99,6 +116,16 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .experience-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .experience-image {
+    width: 60px;
+    height: auto;
+    margin: 0.25rem;
   }
 }
 

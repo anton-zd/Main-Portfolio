@@ -1,3 +1,4 @@
+// Project filter functionality
 const btns = document.querySelectorAll('.buttons button');
 const imgs = document.querySelectorAll('.images img');
 
@@ -33,6 +34,7 @@ btns[0].addEventListener('click', (e) => {
     img.classList.add('img-expand');
   });
 });
+
 
 
 
